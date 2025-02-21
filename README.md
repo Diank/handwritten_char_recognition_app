@@ -34,8 +34,8 @@
 
 1. **Клонируйте репозиторий**:
    ```
-   git clone https://github.com/USERNAME/REPOSITORY.git
-   cd REPOSITORY
+   git clone https://github.com/Diank/handwritten_char_recognition_app.git
+   cd handwritten_char_recognition_app
    ```
 2. **Установите зависимости**:
    ```
@@ -59,10 +59,12 @@
    ```
 3. **Откройте браузер** и перейдите по адресу: `http://localhost:8000`
 
-Если контейнер уже загружен в Docker Hub, достаточно выполнить:
+### 🔹 Запуск в Docker Hub
+
+Контейнер загружен в Docker Hub, для запуска достаточно выполнить:
    ```
-   docker pull USERNAME/emnist-app
-   docker run -p 8000:8000 USERNAME/emnist-app
+   docker pull diananigm/emnist-app
+   docker run -p 8000:8000 diananigm/emnist-app
    ```
 
 ## API
