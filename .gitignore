@@ -3,6 +3,7 @@ __pycache__/
 *env/
 emnist.zip
 data/
+<<<<<<< HEAD
 .idea/
 .venv
 .DS_Store
